@@ -58,6 +58,11 @@ python -m PyInstaller --noconfirm --onefile --windowed \
   --add-data "uk.png;." \
   --add-data "ger.png;." \
   --add-data "jp.png;." \
+  --add-data "settings.png;." \
+  --add-data "online.png;." \
+  --add-data "offline.png;." \
+  --hidden-import pystray \
+  --hidden-import pystray._win32 \
   main.py
 ```
 
@@ -122,6 +127,9 @@ Make sure all of the following files are present in your project folder before r
 | `uk.png` | UK server flag |
 | `ger.png` | Germany server flag |
 | `jp.png` | Japan server flag |
+| `settings.png` | Settings icon |
+| `online.png` | Online status icon |
+| `offline.png` | Offline status icon |
 
 ---
 
