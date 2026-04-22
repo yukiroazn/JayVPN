@@ -142,5 +142,5 @@ Make sure all of the following files are present in your project folder before r
 ---
 
 <div align="center">
-  <sub>Built with Python & PyInstaller · Powered by Webshare.io</sub>
+  <sub>Built with Python</sub>
 </div>
